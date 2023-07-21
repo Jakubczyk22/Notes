@@ -1,0 +1,18 @@
+nav{
+    background-color: antiquewhite;
+}
+main{
+    border: solid;
+    border-width: 25px;
+    border-color: azure;
+}
+section{
+    padding: 25px;
+}
+article{
+    padding: 10px;
+}
+.readyNotes{
+    border: solid;
+    border-color: black;
+}

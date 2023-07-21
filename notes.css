@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #191919;
+    color: #fff;
+    margin: 20px;
+    animation: starsAnimation 10s linear infinite;
+  }
+  
+  @keyframes starsAnimation {
+    0%, 100% {
+      background-size: 100% 100%;
+    }
+    50% {
+      background-size: 150% 150%;
+    }
+  }
+  
+  .note {
+    background-color: #212121;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #444;
+    background-color: #2e2e2e;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: #e74c3c;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }
+  
